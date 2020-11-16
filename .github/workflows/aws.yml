@@ -9,9 +9,9 @@
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master1 ]
   pull_request:
-    branches: [ master ]
+    branches: [ master1 ]
 
 name: python hostname Project `my-app-repo` CI on ECR
 
