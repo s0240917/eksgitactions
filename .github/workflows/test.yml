@@ -28,4 +28,6 @@ jobs:
           echo ${{ github.sha }}
           cd ./manifests
           ls
+          sed -i 's/latest/${{ github.sha }}/g' deployment.yml
+          cat deployment.yml
           
