@@ -25,3 +25,6 @@ jobs:
         run: |
           echo ${{needs.job1.outputs.output1}} ${{needs.job1.outputs.output2}}
           echo ${{ github.sha }}
+          cd ./manifests
+          ls
+          
